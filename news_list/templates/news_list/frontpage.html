@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Global News Portal</title>
+
+
+    <style>
+        .container {
+            margin: auto;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .col-md-8 {
+            padding: 10px;
+        }
+
+        .card rounded shadow-lg m-2 {
+            margin: auto;
+            width: 100%;
+            padding: 30px;
+        }
+
+        .navbar {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .nav-item {
+            padding: 3px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav>p {
+            cursor: pointer;
+        }
+
+        .pill-black,
+        .pill-white {
+            border: 0.5px solid;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .pill-black {
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+
+
+        .col-sm-4 p {
+            margin: 25px 20px 15px;
+            min-width: 60px;
+            padding: 1px;
+        }
+
+        section.container .row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .jumbotron {
+            display: flex;
+            align-items: center;
+            height: 450px;
+            background-image: url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .jumbotron h2 {
+            background-color: #FFFFFF;
+            display: inline-block;
+            color: #f1692e;
+            font-weight: 700;
+            padding: 10px 35px;
+            border-radius: 5px;
+        }
+
+        .jumbotron h3 {
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+
+        .col-sm-1 img {
+            min-width: 32px;
+            min-height: 33px;
+        }
+
+        .card-custom {
+            max-width: 300px;
+        }
+
+        .container_header {
+            margin-left: 7px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <header class="container_header ">
+        <div class="row">
+            <h6 class="col-sm-8 ">GlobalNewsPortal.org</h6>
+            <nav class="col-sm-4">
+                <p class="pill-white">Sign In</p>
+                <p class="pill-black">Sign Up</p>
+                <p>About</p>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="jumbotron">
+        <div class="container">
+            <div class="row text-center">
+                <h2>Global News Portal</h2>
+                <h3> Explore & Discuss</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container">
+        <div class="row">
+            <ul class="nav justify-content-center">
+                <ul class="col-sm-8  justify-content-center">
+                    <li class="col-sm-1"><img
+                            src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook-grey.svg">
+                    </li>
+                    <li class="col-sm-1"><img
+                            src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter-grey.svg">
+                    </li>
+                    <li class="col-sm-1"><img
+                            src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram-grey.svg">
+                    </li>
+                    <li class="col-sm-1"><img
+                            src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium-grey.svg">
+                    </li>
+                </ul>
+            </ul>
+        </div>
+    </footer>
+
+
+    <ul class="nav justify-content-center">
+
+        <li class="nav-item active">
+            <a class="btn btn-outline-dark" href="{% url 'frontpage' %}?category=general">All news</a>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-outline-dark" href="{% url 'frontpage' %}?category=business">Business</a>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-outline-dark" href="{% url 'frontpage' %}?category=technology">Technology</a>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-outline-dark" href="{% url 'frontpage' %}?category=science">Science</a>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-outline-dark" href="{% url 'frontpage' %}?category=health">Health</a>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-outline-dark" href="{% url 'frontpage' %}?category=sports">Sports</a>
+        </li>
+        <li class="nav-item"> <a class="btn btn-outline-dark"
+                href="{% url 'frontpage' %}?category=entertainment">Entertainment</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Language
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="{% url 'frontpage' %}?language=en">English</a>
+                <a class="dropdown-item" href="{% url 'frontpage' %}?language=fr">French</a>
+                <a class="dropdown-item" href="{% url 'frontpage' %}?language=de">German</a>
+                <a class="dropdown-item" href="{% url 'frontpage' %}?language=it">Italian</a>
+                <a class="dropdown-item" href="{% url 'frontpage' %}?language=ru">Russian</a>
+                <a class="dropdown-item" href="{% url 'frontpage' %}?language=es">Spanish</a>
+            </div>
+        </li>
+
+    </ul>
+
+
+
+
+    <div class="container ">
+        <div class="container">
+            <div class="row mt-3 justify-content-center">
+                {% for i in articles %}
+                <div class="card card-custom rounded shadow-lg mx-2 mb-3">
+                    <img src="{{ i.urlToImage }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <!-------------------->
+                        <p class="card-text">{{ i.author }} <small>{{ i.publishedAt }}</small> </p>
+                        <h5 class="card-title">{{ i.title }}</h5>
+                        <p class="card-title">{{ i.source.name }}</p>
+                        <p class="card-text">{{ i.description }}</p>
+                        <hr>
+                        <!--  <a href="{% url 'newspage' %}" class="stretched-link"></a>  tällä koko kortista saa linkin-->
+                        <!--linkitys alkuperäiseen uutiseen-->
+                        <a href="{{ i.url }}" target="_blank" class="btn btn-light"> >>Read the Full Article</a>
+                        <!--linkitys keskusteluun uutisesta -kesken-->
+                        <a href="{% url 'newspage' %}" class="btn btn-light"> >>Discuss</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
